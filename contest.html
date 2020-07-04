@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("food-photography-props-stilllife.jpg");
+
+  min-height: 650px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+right: 0;
+  margin: 50px;
+  max-width: 350px;
+min-height: 900px;
+  padding: 16px;
+  background-color: #ffe0cc;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #331400;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body bgcolor="  #ffa366">
+
+
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+<h1><font face="Castellar" color="#331100">Submit Your Entry Here</font></h1> <label for="fname"><font face="Arial Black" color="#331100" size="4">First Name</font></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"><font face="Arial Black" color="#331100" size="4">Last Name</font></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country"><font face="Arial Black" color="#331100" size="4">Country</font></label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+<br><br><br>
+<label for="file"><font face="Arial Black" color="#331100" size="4">Upload your Recipe here</font></label><br><br>
+    <input type="file" id="file" name="file" >
+<br><br><br>
+<label for="file"><font face="Arial Black" color="#331100" size="4">Upload Photograph</font></label><br><br>
+    <input type="file" id="file" name="file" >
+
+
+    <label for="subject"><p><font face="Arial Black" color="#331100" size="4">Add Comments</font></p></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <br><br><input type="submit" value="Submit" class="btn">
+
+
+
+
+
+
+
+  
+
+    
+  </form>
+</div>
+<p><font face="georgia" color="#1a0000" size="4">Upload your Recipes here and compete among your fellow foodies.<br>Weekly results are announced on every Friday.<br><br>
+The WINNER may get a chance to Publish his/her own Recipe Book.<br><br>For more information about the contest, <a href="contact1.html">contact us</a> directly.</font></p>
+
+<div class='center'>
+
+
+  <p class="awesome" align="left"><br><a href="winner.html">This Week's Winner!!! </a></p>
+
+</div>
+<style>
+   .center {
+      
+      margin: 0 auto;
+      
+    }
+
+    .awesome {
+      
+      font-family: futura;
+      font-style: italic;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: left;
+      
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }</style>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("dslr1.jpg");
+
+  min-height: 650px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: center;
+  right: 10;
+  margin: 50px;
+  max-width: 350px;
+min-height: 590px;
+  padding: 16px;
+  background-color: #ffe0cc;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #331400;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body bgcolor=" #cc5200">
+
+
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+<h1><font face="Castellar" color="#331100">Contact Us</font></h1> <label for="fname"><font face="Arial Black" color="#331100" size="4">First Name</font></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"><font face="Arial Black" color="#331100" size="4">Last Name</font></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country"><font face="Arial Black" color="#331100" size="4">Country</font></label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject"><p><font face="Arial Black" color="#331100" size="4">Subject</font></p></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <br><br><input type="submit" value="Submit" class="btn">
+
+
+
+
+
+
+
+  
+
+    
+  </form>
+</div>
+
+
+</body>
+</html>
